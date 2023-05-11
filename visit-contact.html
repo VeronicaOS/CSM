@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">    
     <head>
         <title>Community Science Museum | Home page</title>
         <meta
@@ -14,15 +14,18 @@
             href="data/font-awesome/css/font-awesome.min.css"
         />
         <link
-            href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap"
             rel="stylesheet"
         />
     </head>
     <body>
+    <!-----------------------header------------------------->
         <header>
-            <img src="Images/CSM-mobile/header.png" class="header-background
-            mobile" alt=> <img src="Images/CSM-mobile/Logo-cream.png"
-            class="logo-mobile mobile" alt=>
+            <img src="Images/CSM-mobile/header.png" class="header-background mobile" alt=>
+            <div class="logo-cream mobile">
+                <p class="logo1">CSM</p>
+                <p class="logo2">Community Science Museum</p>
+            </div>
             <div class="hamburger-menu mobile">
                 <input type="checkbox" id="menu-checkbox" />
                 <label aria-label="Hamburger menu" for="menu-checkbox">
@@ -64,6 +67,7 @@
             desktop" alt=> <img src="Images/CSM-desktop/Logo-medium.png"
             class="logo-medium desktop" alt=>
         </header>
+        <!-----------------------main------------------------->
         <main class="visit-contact-container">
             <div class="find-us-box">
                 <h1>FIND US AT</h1>
@@ -76,7 +80,7 @@
             </div>
             <div class="info-box">
                 <div class="grid1">
-                    <img src="Images/CSM-desktop/food.png" />
+                    <img src="Images/CSM-desktop/food.png" class="food" alt=""/>
                 </div>
                 <div class="grid2">
                     <p>Admissions fee</p>
@@ -105,26 +109,49 @@
                 <div class="grid9">
                     <p>memorabilia, great gifts and activity packs.</p>
                 </div>
-                <div class="grid1">
+                <div class="grid10">
                     <img
                         src="Images/CSM-desktop/shopping.png"
-                        class="map"
+                        class="shopping"
                         alt=""
                     />
                 </div>
             </div>
             <div class="hours-box">
                 <h2>OPENING HOURS</h2>
-                <p>Monday: Closed</p>
-                <p>Tuesday: 10:00 – 16:00</p>
-                <p>Wednesday: 10:00 – 16:00</p>
-                <p>Thursday: 10:00 – 16:00</p>
-                <p>Friday: 10:00 – 19:00</p>
-                <p>Saturday: 9:00 – 16:00</p>
-                <p>Sunday: 9:00 – 13:00</p>
+                <div class="hours">
+                    <p>Monday: Closed</p>
+                    <p>Tuesday: 10:00 – 16:00</p>
+                    <p>Wednesday: 10:00 – 16:00</p>
+                    <p>Thursday: 10:00 – 16:00</p>
+                    <p>Friday: 10:00 – 19:00</p>
+                    <p>Saturday: 9:00 – 16:00</p>
+                    <p>Sunday: 9:00 – 13:00</p>
+                </div>
                 <img src="Images/CSM-desktop/time.png" class="time" alt="" />
             </div>
+            <div class="contact-box">
+                <form class="">
+                    <h2>CONTACT US</h2>
+                    <label for="name"></label>
+                    <input type="text" id="name" name="Name" placeholder="First and Last Name">
+                    <label for="email"></label>
+                    <input type="text" id="email" name="Email" placeholder="Email Address">
+                    <label for="textarea"></label>
+                    <textarea placeholder="Your Message...." id="textarea"></textarea>
+                    <input type="button" value="Send">
+                </form>
+            </div>
+            <div class="nmb-email-box">
+                <img src="Images/CSM-desktop/email.png" class="email" alt="">
+                <div>
+                    <p>Phone: +47 99 99 20 22</p>
+                    <p>Email: CSM@gmail.com</p>
+                </div>
+                <img src="Images/CSM-desktop/phone.png" class="phone" alt="">
+            </div>
         </main>
+        <!-----------------------footer------------------------->
         <footer>
             <hr />
             <div class="footer-flex">

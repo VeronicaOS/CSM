@@ -53,17 +53,11 @@ h1, h2 {
     padding: 2rem 0;
 }
 
-.logo-cream {
-    position: absolute;
-    top: 0.5rem;
-    right: 1rem;
-}
-
 .explore-container {
      height: fit-content;
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 950px) {
     header {
         height: 90rem;
     }
@@ -118,7 +112,7 @@ h1, h2 {
     }
 }
 
-@media only screen and (min-width: 650px) and (max-width: 1099px) {
+@media only screen and (min-width: 650px) and (max-width: 949px) {
     header {
         height: 70rem;
     }
