@@ -30,7 +30,7 @@ main {
     cursor: pointer;
     position: absolute;
     top: 0.7rem;
-    left: 0.7rem;
+    left: 1rem;
 }
 
 .bar1,
@@ -38,17 +38,17 @@ main {
 .bar3 {
     height: 0.2rem;
     background-color: #362b2a;
-    margin: 0.6rem 0;
+    margin: 0.5rem 0;
     border-radius: 1rem;
 }
 
 .bar1,
 .bar3 {
-    width: 3rem;
+    width: 2rem;
 }
 
 .bar2 {
-    width: 2rem;
+    width: 1.3rem;
 }
 
 .hamburger-menu nav {
@@ -78,10 +78,13 @@ main {
 
 .magnifying-glass {
     position: absolute;
-    left: 6.5rem;
+    left: 6rem;
     top: 1.7rem;
     color: #362b2a;
+    font-size: 1.6rem;
 }
+
+
 /* mobile header */
 
 /* desktop header */
@@ -159,7 +162,7 @@ hr {
     }
 
     /* Hvordan få dette frem på desktop */
-    .menu-list {
+    .hamburger-menu nav {
         position: absolute;
         display:inline-block;
         right: 200px;
