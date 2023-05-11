@@ -8,7 +8,6 @@ body {
     color: #362b2a;
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
-    
 }
 
 header {
@@ -22,7 +21,7 @@ main {
 
 /* mobile header */
 .mobile-header {
-    position:fixed
+    position: fixed;
 }
 
 /* hamburger menu */
@@ -84,7 +83,6 @@ main {
     font-size: 1.6rem;
 }
 
-
 /* mobile header */
 
 /* desktop header */
@@ -108,7 +106,6 @@ footer {
     align-items: center;
     text-align: center;
     justify-content: space-evenly;
-    
 }
 
 .footer-flex {
@@ -120,14 +117,15 @@ footer a {
     color: #362b2a;
 }
 
-.socials1 a, .socials2 a {
-        padding: 0 0.3rem 0 0.3rem;
-    } 
+.socials1 a,
+.socials2 a {
+    padding: 0 0.3rem 0 0.3rem;
+}
 
 .footer-nav a,
-    .footer-info a {
-        padding: 0.5rem;
-    }
+.footer-info a {
+    padding: 0.5rem;
+}
 
 .copyright {
     display: flex;
@@ -135,15 +133,15 @@ footer a {
 }
 
 .vl {
-    background-color: #DED1B7;
+    background-color: #ded1b7;
     width: 0.2rem;
     height: 9rem;
     border-radius: 1rem;
-    margin: 0 2rem 0 2rem;
+    margin: 0 1rem 0 1rem;
 }
 
 hr {
-    border-color: #DED1B7;
+    border-color: #ded1b7;
     height: 0;
     border-style: solid;
 }
@@ -164,7 +162,7 @@ hr {
     /* Hvordan få dette frem på desktop */
     .hamburger-menu nav {
         position: absolute;
-        display:inline-block;
+        display: inline-block;
         right: 200px;
         top: 200px;
         background-color: black;
@@ -179,13 +177,12 @@ hr {
     .footer-socials {
         display: flex;
         flex-direction: row;
-        align-items: center
+        align-items: center;
     }
 
     .footer-socials p {
         padding-right: 2rem;
     }
-
 }
 
 @media only screen and (min-width: 650px) and (max-width: 1099px) {
@@ -205,15 +202,8 @@ hr {
     }
 
     .footer-socials {
-        display: flex;
-        flex-direction: row;
-        align-items: center
+        width: 30rem;
     }
-
-    .footer-socials p {
-        padding-right: 2rem;
-    }
-    
 }
 
 @media only screen and (max-width: 649px) {
@@ -224,7 +214,7 @@ hr {
     .header-background {
         position: inherit;
     }
-    
+
     .footer-nav,
     .footer-info {
         display: flex;
@@ -234,15 +224,15 @@ hr {
     .footer-socials {
         display: flex;
         flex-direction: column;
-
     }
 
-    .socials1, .socials2 {
+    .socials1,
+    .socials2 {
         padding-bottom: 0.5rem;
-    } 
+    }
 
     .footer-nav {
-    padding: 0 3rem 0 3.5rem;
+        padding: 0 2rem 0 3.5rem;
     }
 
     .footer-info {
