@@ -1,4 +1,4 @@
-.explore-body {
+body {
    background-image: linear-gradient(to right, #8CC0CA, #D9D9D9 70%);
      position: relative;
      z-index: -99;
