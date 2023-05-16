@@ -1,3 +1,129 @@
+header {
+    background-image: url(/Images/CSM-desktop/Home.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 55rem;
+    z-index: 1;
+    color: white;
+}
+
+.header-text {
+    width: 13rem;
+    left: 4rem;
+    top: 9rem;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.home-container {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+}
+
+.desktop {
+    display: none;
+}
+
+/*info box*/
+
+.info {
+    background-color: #282630;
+    height: 11rem;
+    color: white;
+    z-index: 1;
+}
+
+.info-content {
+    display: flex;
+    height: 11rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info p {
+    width: 10rem;
+}
+
+/*join us box*/
+
+.join-us {
+    background-image: url(/Images/CSM-desktop/join-us.png);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    position: relative;
+}
+
+.square {
+    background-color: rgb(134, 143, 162 , .80);
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.square p {
+    padding: 0 2rem;
+}
+
+/*explore box*/
+
+.explore {
+    background-color: #BB836A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore p {
+    padding: 0 4rem;
+    text-align: center;
+}
+
+.explore img {
+    width: 100vw;
+}
+
+.button-img {
+    background-image: url(/Images/CSM-desktop/explore-learn-more.png);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 40rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    text-decoration: none;
+}
+
+input[type="button"] {
+    color: #EFE3CC;
+    background-color: #FF9D71;
+    cursor: pointer;
+    border-radius: 9rem;
+    border: none;
+    padding: 0.7rem 1rem;
+}
+
 @media only screen and (min-width: 950px) {
 
 }

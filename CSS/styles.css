@@ -176,7 +176,8 @@ hr {
         position: absolute;
         z-index: 99;
         background-color:#efe3cc00;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        font-weight: 500;
         top: 2rem;
         margin-left: 30rem;
     }
@@ -192,6 +193,11 @@ hr {
         z-index: 99;
     }
 
+    footer {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+
     .footer-nav {
         padding: 0 6rem 0 6rem;
     }
@@ -204,6 +210,7 @@ hr {
 
     .footer-socials p {
         padding-right: 2rem;
+        font-weight: 500;
     }
 }
 
