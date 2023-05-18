@@ -16,7 +16,7 @@ header {
     font-weight: 300;
 }
 
-header h1 {
+h1 {
     font-size: 2rem;
     font-weight: 300;
 }
@@ -133,9 +133,80 @@ input[type="button"] {
 }
 
 @media only screen and (min-width: 950px) {
+    .header-text {
+        width: 19rem;
+        left: 10rem;
+        top: 25rem;
+        position: absolute;
+        font-size: 2.3rem;
+        font-weight: 300;
+    }
+
+    h1 {
+        font-size: 2.8rem;
+        font-weight: 300;
+    }
+
+    .home-container {
+        display: grid;
+        grid-template-columns: 85% 15%;
+        grid-template-rows: 15%;
+    }
+
+    .grid1 {
+        grid-column: 1 / span 2;
+        grid-row: 1 /span 1;
+        height: 40vh;
+    }
+
+    .hours {
+
+    }
+
+    .grid2 {
+        grid-column: 2 / span 1;
+        grid-row: 2 / span 2;
+        width: 15vw;
+        height: 100vh;
+        
+    }
+
+    .info-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid3 {
+        grid-column: 1 / span 1;
+        grid-row: 2 / span 1;
+        width: 80vw;
+    }
+
+    .grid4 {
+        grid-column: 1 / span 1;
+        grid-row: 3 /span 1;
+        width: 88vw;
+    }
+
+    .grid5 {
+        grid-column: 1 / span 2;
+        grid-row: 4 /span 1;
+    }
 
 }
 
 @media only screen and (min-width: 600px) and (max-width: 949px) {
-    
+    .header-text {
+        width: 16rem;
+        left: 8rem;
+        top: 20rem;
+        position: absolute;
+        font-size: 2rem;
+        font-weight: 300;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
 }
