@@ -30,6 +30,7 @@ main {
     position: absolute;
     top: 0.7rem;
     left: 1rem;
+    z-index: 99;
 }
 
 .bar1,
@@ -56,7 +57,11 @@ main {
     box-sizing: border-box;
     padding: 2rem;
     left: -1rem;
-    top: 4rem;
+    top: 5rem;
+    height: 30rem;
+    width: 18rem;
+    font-size: 1.7rem;
+    border-radius: 0 1rem 1rem 0;
 }
 
 .hamburger-menu nav,
@@ -70,7 +75,7 @@ main {
 
 .hamburger-menu a {
     display: block;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
     text-decoration: none;
     color: #362b2a;
 }
@@ -214,7 +219,7 @@ hr {
     }
 }
 
-@media only screen and (min-width: 650px) and (max-width: 949px) {
+@media only screen and (min-width: 600px) and (max-width: 949px) {
     .mobile,
     .logo-large {
         display: none;
@@ -244,7 +249,7 @@ hr {
     }
 }
 
-@media only screen and (max-width: 649px) {
+@media only screen and (max-width: 599px) {
     .desktop {
         display: none;
     }
