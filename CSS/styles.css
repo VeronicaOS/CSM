@@ -27,9 +27,9 @@ main {
 /* hamburger menu */
 .hamburger-menu {
     cursor: pointer;
-    position: absolute;
-    top: 0.7rem;
-    left: 1rem;
+    position: fixed;
+    top: 1.4rem;
+    left: 1.6rem;
     z-index: 99;
 }
 
@@ -81,7 +81,7 @@ main {
 }
 
 .magnifying-glass {
-    position: absolute;
+    position: fixed;
     left: 6rem;
     top: 1.7rem;
     color: #362b2a;
@@ -166,6 +166,7 @@ footer a {
     height: 9rem;
     border-radius: 1rem;
     margin: 0 1rem 0 1rem;
+    z-index: 55;
 }
 
 hr {
@@ -178,24 +179,46 @@ hr {
 @media only screen and (min-width: 950px) {
     .hamburger-menu nav {
         display: flex;
-        position: absolute;
-        z-index: 99;
         background-color:#efe3cc00;
         font-size: 2rem;
         font-weight: 500;
-        top: 2rem;
-        margin-left: 30rem;
+        top: 2vw;
+        left: 5vw;
+    }
+    
+    .hamburger-menu {
+        position: relative;
     }
 
-    .mobile,
-    .logo-medium {
+    .logo-cream {
+        position: absolute;
+        top: 4rem;
+        right: 1rem;
+        color: #efe3cc;
+        width: 18rem;
+        text-align: center;
+    }
+
+    .logo1 {
+        font-size: 7rem;
+        font-weight: 600;
+        margin: 0;
+        margin-block-end: 0;
+    }
+    
+    .logo2 {
+        font-size: 1.6rem;
+        margin: 0;
+        top: -0.7rem;
+        position: relative;
+    }
+
+    .hamburger-menu label {
         display: none;
     }
 
-    .logo-large {
-        margin: 3rem 3rem;
-        position: relative;
-        z-index: 99;
+    .mobile {
+        display: none;
     }
 
     footer {
@@ -220,24 +243,52 @@ hr {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 949px) {
-    .mobile,
-    .logo-large {
+    .mobile{
+        display: none;
+    }
+
+    .hamburger-menu {
+        position: relative;
+    }
+
+    .hamburger-menu label {
         display: none;
     }
 
     .hamburger-menu nav {
         display: flex;
-        position: absolute;
-        z-index: 99;
-        background-color:#efe3cc00;
-        font-size: 1.5rem;
-        margin-left: 30rem;
+        background-color: #efe3cc00;
+        font-weight: 500;
+        top: 1.5vw;
+        left: 1vw;
+        padding: 0;
     }
 
-    .logo-medium {
+    .hamburger-menu a {
+        padding: 1.5rem;
+    }
+
+    .logo-cream {
+        position: absolute;
+        top: 3.1rem;
+        right: 1rem;
+        color: #efe3cc;
+        width: 13rem;
+        text-align: center;
+    }
+
+    .logo1 {
+        font-size: 5rem;
+        font-weight: 600;
+        margin: 0;
+        margin-block-end: 0;
+    }
+    
+    .logo2 {
+        font-size: 1.1rem;
+        margin: 0;
+        top: -0.7rem;
         position: relative;
-        margin: 1.5rem 1.5rem;
-        z-index: 3;
     }
 
     .footer-nav {
@@ -255,7 +306,7 @@ hr {
     }
 
     .header-background {
-        position: inherit;
+        position: fixed;
     }
 
     .footer-nav,
