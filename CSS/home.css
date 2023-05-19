@@ -5,6 +5,7 @@ header {
     height: 130vw;
     z-index: 1;
     color: white;
+    max-width: 2600px;
 }
 
 .header-text {
@@ -29,6 +30,8 @@ h1 {
     flex-direction: column;
     font-size: 1.7rem;
     text-align: center;
+    max-width: 2600px;
+    margin: 0 auto;
 }
 
 /*info box*/
@@ -142,6 +145,8 @@ input[type="button"] {
 .slider {
     width: 85vw;
     height: 60vw;
+    max-width: 102rem;
+    max-height: 72rem;
     margin-bottom: 10rem;
     background: url(/Images/CSM-desktop/Property\ 1=slider\ 1.png);
     background-size: 100% 100%;
@@ -192,7 +197,6 @@ input[type="button"] {
     .home-container {
         display: grid;
         grid-template-columns: 80% 20%;
-        grid-template-rows: 25vh 65vw 65vw;
         font-size: 2.5rem;
     }
 
@@ -212,6 +216,8 @@ input[type="button"] {
         width: 20vw;
         height: 130vw;
         white-space: break-spaces;
+        max-width: 52rem;
+        max-height: 338rem;
     }
 
     .grid2 h2 {
@@ -236,11 +242,13 @@ input[type="button"] {
         height: 55vw;
         justify-self: center;
         margin-top: 7rem;
+        max-width: 156rem;
+        max-height: 143rem;
     }
 
     .square {
-        width: 50rem;
-        height: 45rem;
+        width: 58rem;
+        height: 52rem;
     }
 
     
@@ -253,12 +261,15 @@ input[type="button"] {
         justify-self: center;
         justify-content: space-between;
         margin-top: 4rem;
+        max-width: 156rem;
+        max-height: 143rem;
     }
 
     .grid4 p {
         padding: 0;
         margin-top: 0;
-        width: 40vw;
+        width: 40rem;
+
         align-self: center;
         font-size: 2.3rem;
     }
@@ -268,13 +279,10 @@ input[type="button"] {
         font-size: 2.8rem;
     }
 
-    .grid4 img {
-        width: 60vw;
-    }
-
     .button-img {
             width: 60vw;
             height: 40vw;
+            max-width: 156rem;
         }
 
         input[type="button"] {
