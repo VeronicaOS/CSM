@@ -1,7 +1,7 @@
 html {
     width: 100%;
     font-size: 62.5%;
-    background-color: #efe3cc;
+    background-color: #282630;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
     width: 100%;
+    max-width: 1440px;
 }
 
 header {
@@ -178,6 +179,7 @@ hr {
     border-color: #ded1b7;
     height: 0;
     border-style: solid;
+    margin: 0;
 }
 /* footer */
 

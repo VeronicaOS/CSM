@@ -2,10 +2,9 @@ header {
     background-image: url(/Images/CSM-desktop/Home.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 130vw;
+    height: 900px;
     z-index: 1;
     color: white;
-    max-width: 2600px;
 }
 
 .header-text {
@@ -32,6 +31,7 @@ h1 {
     text-align: center;
     max-width: 2600px;
     margin: 0 auto;
+    background-color: #EFE3CC;
 }
 
 /*info box*/
@@ -102,6 +102,12 @@ h1 {
     height: 80vw;
 }
 
+input[type="button"]:hover {
+    color: #FF9D71;
+    background-color: #EFE3CC;
+    outline: 0.2rem #FF9D71;
+}
+
 .button {
     display: flex;
     justify-content: center;
@@ -133,6 +139,7 @@ input[type="button"] {
 /*Exhibits*/
 .exhibits {
     background-color: #697188;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,13 +154,17 @@ input[type="button"] {
     height: 60vw;
     max-width: 102rem;
     max-height: 72rem;
-    margin-bottom: 10rem;
     background: url(/Images/CSM-desktop/Property\ 1=slider\ 1.png);
     background-size: 100% 100%;
     animation-name: slide;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-play-state: running;
+}
+
+.button-exhibits {
+    margin: 3rem 0 8rem 0;
+
 }
 
 @keyframes slide {
@@ -216,8 +227,8 @@ input[type="button"] {
         width: 20vw;
         height: 130vw;
         white-space: break-spaces;
-        max-width: 52rem;
-        max-height: 338rem;
+        max-width: 28.8rem;
+        max-height: 187.2rem;
     }
 
     .grid2 h2 {
@@ -242,8 +253,8 @@ input[type="button"] {
         height: 55vw;
         justify-self: center;
         margin-top: 7rem;
-        max-width: 156rem;
-        max-height: 143rem;
+        max-width: 86.4rem;
+        max-height: 79.2rem;
     }
 
     .square {
