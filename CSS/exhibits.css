@@ -77,8 +77,8 @@ p {
     .ecology {
         background-repeat: no-repeat;
         background-size: 100%;
-        height: 56rem;
-        width: 80vw;
+        height: 60vw;
+        width: 90vw;
         background-position: center;
         margin: 5rem 10rem 5rem 10rem;
         border-radius: 2rem;
@@ -130,7 +130,7 @@ p {
         .biology-medicine p {
             position: relative;
             right: 3rem;
-            left: 0;
+            left: -3rem;
         } 
 
 }

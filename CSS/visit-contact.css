@@ -132,7 +132,7 @@ h1, h2, .grid2, .grid4, .grid6, .grid8 {
 
 .hours-box {
     width: 100vw;
-    height: 50vh;
+    height: 60vh;
     background-color: #EFE3CC;
     display: grid;
     grid-template-rows: 20% 80%;
@@ -342,7 +342,7 @@ input[type="button"] {
     }
 
     .hours-box {
-        height: 70vh;
+        height: 78vh;
     }
 
     h1, h2 {

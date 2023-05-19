@@ -24,6 +24,7 @@ main {
 /* mobile header */
 .mobile-header {
     position: fixed;
+    z-index: 99;
 }
 
 /* hamburger menu */
@@ -88,6 +89,7 @@ main {
     top: 1.7rem;
     color: #362b2a;
     font-size: 1.6rem;
+    z-index: 99;
 }
 
 .logo-cream {
@@ -309,6 +311,7 @@ hr {
 
     .header-background {
         position: fixed;
+        z-index: 99;
     }
 
     .footer-nav,
