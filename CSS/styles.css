@@ -38,6 +38,7 @@ header {
     background-color: #362b2a;
     margin: 5px 0;
     border-radius: 10px;
+    display: block;
 }
 
 .bar1,

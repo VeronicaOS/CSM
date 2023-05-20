@@ -186,7 +186,7 @@ h2 {
     flex-direction: column;
 }
 
-label {
+.contact label {
     display: none;
 }
 
