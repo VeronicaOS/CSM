@@ -18,17 +18,16 @@ header {
 
 .find-us-box {
     width: 100%;
-    height: 35vh;
+    height: 250px;
     background-color: #EFE3CC;
     display: grid;
     grid-template-rows: 40% 60%;
     grid-template-columns: 40% 60%;
-    
 }
 
 .map {
-    width: 20rem;
-    height: 15.5rem;
+    width: 200px;
+    height: 155px;
     align-self: center;
     grid-column: 2 / span 2;
     grid-row: 1 / span 2;
@@ -38,7 +37,7 @@ h1 {
     font-size: 1.8rem;
     align-self: end;
     justify-self: center;
-    margin: 0 1rem 0 0
+    margin: 0 10px 0 0
 }
 
 .find-us-box p {
@@ -50,17 +49,17 @@ h1 {
 
 .info-box {
     width: 100%;
-    height: 80%;
+    height: 425px;
     background-color: #4A8E8E;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     grid-template-columns: 45% 55%;
     box-sizing: border-box;
-    padding: 2rem;
+    padding: 20px;
 }
 
 .info-box p {
-    margin: 1rem;
+    margin: 10px;
     color: white;
 }
 
@@ -90,7 +89,7 @@ h1 {
 .grid4 {
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
-    width: 15rem;
+    width: 150px;
 }
 
 .grid5 {
@@ -123,7 +122,7 @@ h1 {
     grid-row: 4 / span 2;
     justify-self: end;
     align-self: end;
-    padding-right: 1rem;
+    padding-right: 10px;
 }
 
 h1, h2, .grid2, .grid4, .grid6, .grid8 {
@@ -134,13 +133,13 @@ h1, h2, .grid2, .grid4, .grid6, .grid8 {
 
 .hours-box {
     width: 100%;
-    height: 60vh;
+    height: 80%;
     background-color: #EFE3CC;
     display: grid;
     grid-template-rows: 20% 80%;
     grid-template-columns: 70% 30%;
     box-sizing: border-box;
-    padding: 3rem;
+    padding: 30px;
 }
 
 .hours, .hours-box h2 {
@@ -153,14 +152,13 @@ h1, h2, .grid2, .grid4, .grid6, .grid8 {
     grid-row: 1 / span 2;
     grid-column: 2 / span 2;
     align-self: center;
-    padding-left: 1rem;
+    padding-left: 10px;
 }
 
 h2 {
     font-size: 1.8rem;
-    padding-right: 5rem;
+    padding-right: 50px;
 }
-
 
 /* contact us */
 
@@ -170,7 +168,7 @@ h2 {
     background-color: #88B4B4;
     color: white;
     box-sizing: border-box;
-    padding: 2rem 5rem 2rem 5rem;
+    padding: 20px 50px;
     display: flex;
     justify-content: center;
 }
@@ -180,7 +178,7 @@ h2 {
 }
 
 .contact {
-    width: 30rem;
+    width: 300px;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -189,11 +187,11 @@ h2 {
 input,
 textarea {
     color: black;
-    padding: 0.5rem 1rem;
-    margin: 1rem 0;
+    padding: 5px 10px;
+    margin: 10px 0;
     box-sizing: border-box;
     font-family: "raleway", sans-serif;
-    border-radius: 0.3rem;
+    border-radius: 3px;
     border: none;
 }
 
@@ -211,12 +209,12 @@ input[type="button"] {
     color: white;
     background-color: #EF8399;
     cursor: pointer;
-    border-radius: 9rem;
-    width: 8rem;
+    border-radius: 90px;
+    width: 80px;
 }
 
 .btn:hover {
-    border: 0.2rem solid;
+    border: 2px solid;
 }
 
 input[type="button"]:hover {
@@ -231,7 +229,7 @@ input[type="button"]:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 12rem;
+    height: 120px;
 }
 
 .email,
@@ -239,7 +237,6 @@ input[type="button"]:hover {
     width: 10vw;
     height: 10vw;
 }
-
 
 @media only screen and (min-width: 950px) {
     header {
@@ -261,7 +258,7 @@ input[type="button"]:hover {
 
     .hours-box,
     .find-us-box {
-        outline: 0.3rem solid #DED1B7;
+        outline: 3px solid #DED1B7;
         width: 90%;
         height: 80%;
         align-self: center;
@@ -293,14 +290,14 @@ input[type="button"]:hover {
     }
 
     .map {
-        height: 27rem;
-        width: 41rem;
+        height: 270px;
+        width: 410px;
     }
 
     .info-box {
         width: 100%;
         height: 100%;
-        padding: 3rem;
+        padding: 30px;
     }
 
     .contact-box {
@@ -308,9 +305,8 @@ input[type="button"]:hover {
         align-items: center;
     }
 
-
     .grid4 {
-        width: 20rem;
+        width: 200px;
     }
 
     .shopping, 
@@ -322,13 +318,12 @@ input[type="button"]:hover {
     }
 
     .email, .phone {
-        width: 10rem;
-        height: 10rem;
-        
+        width: 100px;
+        height: 100px;
     }
 
     #textarea {
-        height: 20rem;
+        height: 200px;
     }
 
     form {
@@ -337,9 +332,9 @@ input[type="button"]:hover {
 
     input[type="button"] {
         float: left;
-        margin-left: 2rem;
-        height: 5rem;
-        width: 10rem;
+        margin-left: 20px;
+        height: 50px;
+        width: 100px;
     }
 
     input,
@@ -376,7 +371,7 @@ input[type="button"]:hover {
     .grid5,
     .grid7,
     .grid9 {
-        max-width: 50rem;
+        max-width: 500px;
     }
 
     .hours-box {
@@ -388,20 +383,20 @@ input[type="button"]:hover {
     }
     
     .contact {
-        width: 40rem;
+        width: 400px;
     }
     
     input {
-       height: 3.5rem;
+       height: 35px;
     }
     
     textarea {
-        height: 15rem;
+        height: 150px;
     }
     
     input[type="button"] {
-        width: 11rem;
-        height: 4rem;
+        width: 110px;
+        height: 40px;
         font-size: large;
     }
 

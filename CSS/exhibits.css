@@ -15,7 +15,6 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0D0D0D;
 }
 
 .evolution,
@@ -40,25 +39,30 @@ p {
     width: 100vw;
 }
 
-.evolution {
-   color: #C4C5CA;
-}
-
-.biology-medicine {
-    color: #C1F0FE;
+ .evolution {
+    background-color: #0D0D0D;
+    color: #C4C5CA;
  }
-
-.robotics-AI {
-    color: #E5D6BF;
- }
-
-.cosmology {
-    color: #CAC9D1;
- }
-
-.ecology {
-    color: #E7EFF8;
- }
+ 
+ .biology-medicine {
+     background-color: #001B5D;
+     color: #C1F0FE;
+  }
+ 
+ .robotics-AI {
+     background-color: #382717;
+     color: #E5D6BF;
+  }
+ 
+ .cosmology {
+     background-color: #5A130D;
+     color: #CAC9D1;
+  }
+ 
+ .ecology {
+     background-color: #374F7F;
+     color: #E7EFF8;
+  }
 
 @media only screen and (min-width: 950px) {
     header {
@@ -81,8 +85,9 @@ p {
     .ecology {
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        width: 90%;
-        height: 800px;
+        width: 80%;
+        height: 55vw;
+        max-height: 792px;
         background-position: center;
         margin: 5rem 10rem 5rem 10rem;
         border-radius: 2rem;
@@ -93,29 +98,29 @@ p {
     }
 
     .evolution {
-            color: #C4C5CA;
-            background-image: url(/Images/CSM-desktop/evolution.png);
+        color: #C4C5CA;
+        background-image: url(/Images/CSM-desktop/evolution.png);
         }
 
     .biology-medicine {
-        color: #C4C5CA;
+        color: #C1F0FE;
         background-image: url(/Images/CSM-desktop/biology.png);
         align-items: end;
     }
 
     .robotics-AI {
-        color: #C4C5CA;
+        color: #E5D6BF;
         background-image: url(/Images/CSM-desktop/robotics.png);
     }
 
     .cosmology {
-        color: #C4C5CA;
+        color: #CAC9D1;
         background-image: url(/Images/CSM-desktop/cosmology.png);
         align-items: end;
     }
 
     .ecology {
-        color: #C4C5CA;
+        color: #E7EFF8;
         background-image: url(/Images/CSM-desktop/ecology.png);
     }
     
@@ -128,15 +133,14 @@ p {
         text-align: left;
     }
 
-        .cosmology h2,
-        .cosmology p,
-        .biology-medicine h2,
-        .biology-medicine p {
-            position: relative;
-            right: 3rem;
-            left: -3rem;
-        } 
-
+    .cosmology h2,
+    .cosmology p,
+    .biology-medicine h2,
+    .biology-medicine p {
+        position: relative;
+        right: 3rem;
+        left: -3rem;
+    } 
 }
 
 @media only screen and (min-width: 600px) and (max-width: 949px) {
@@ -169,21 +173,14 @@ p {
     }
 
     .evolution {
-            color: #C4C5CA;
-            background-image: url(/Images/CSM-desktop/evolution.png);
+        background-image: url(/Images/CSM-desktop/evolution.png);
         }
 
     .biology-medicine {
         background-image: url(/Images/CSM-desktop/biology.png);
     }
 
-    .biology-medicine, 
-    .cosmology {
-        color: #C4C5CA;
-    }
-
     .robotics-AI {
-        color: #C4C5CA;
         background-image: url(/Images/CSM-desktop/robotics.png);
     }
 
@@ -192,7 +189,6 @@ p {
     }
 
     .ecology {
-        color: #C4C5CA;
         background-image: url(/Images/CSM-desktop/ecology.png);
     }
     
@@ -232,32 +228,4 @@ p {
     .ecology-box {
         background-color: #374F7F90;
     }
-}
-
-@media only screen and (max-width: 599px) {
-
-    .evolution {
-    background-color: #0D0D0D;
-    color: #C4C5CA;
- }
- 
- .biology-medicine {
-     background-color: #001B5D;
-     color: #C1F0FE;
-  }
- 
- .robotics-AI {
-     background-color: #382717;
-     color: #E5D6BF;
-  }
- 
- .cosmology {
-     background-color: #5A130D;
-     color: #CAC9D1;
-  }
- 
- .ecology {
-     background-color: #374F7F;
-     color: #E7EFF8;
-  }
 }

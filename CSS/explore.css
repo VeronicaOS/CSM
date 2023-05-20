@@ -2,7 +2,6 @@ body {
    background-image: linear-gradient(to right, #8CC0CA, #D9D9D9 70%);
      position: relative;
      z-index: -99;
-    
 }
 
 header {
@@ -59,14 +58,13 @@ h1, h2 {
 
 @media only screen and (min-width: 950px) {
     header {
-        background-size: 100% 120%;
         height: 800px;
     }
     
     .explore-container {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
         grid-row: 3;
         grid-gap: 1rem;
         padding: 5rem 0;
@@ -75,7 +73,6 @@ h1, h2 {
     }
 
     .teachers-image {
-        grid-column: 1;
         grid-row: 2;
         width: 19.7rem;
         height: 35rem;
@@ -84,13 +81,11 @@ h1, h2 {
     .kids-image {
         width: 41.5rem;
         height: 25rem;
-        align-self: center;
     }
     
     .researchers-image {
         width: 25.6rem;
         height: 35rem;
-        align-self: center;
     }
 
     .text p {
@@ -107,10 +102,6 @@ h1, h2 {
     .text {
         align-self: center;
     }
-
-    .img {
-        padding-block: unset;
-    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 949px) {
@@ -119,10 +110,8 @@ h1, h2 {
     }
 
     .text p {
-        box-sizing: border-box;
         padding: 0 10rem;
         font-size: 1.8rem;
-        text-align: center;
     }
 
     h1, h2 {

@@ -18,11 +18,6 @@ header {
     position: relative;
 }
 
-/* husk å ta bort */
-main {
-    height: 50rem;
-}
-
 /* mobile header */
 .mobile-header {
     position: fixed;
