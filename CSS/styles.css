@@ -78,7 +78,6 @@ header {
     color: #362b2a;
     position: relative;
     height: 25px;
-    transition: all ease-in-out 250ms;
 }
 
 .hamburger-menu a::after {
