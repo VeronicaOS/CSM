@@ -66,6 +66,8 @@ h1 {
 .food, .shopping {
     height: 17vw;
     width: 17vw;
+    max-width: 82px;
+    max-height: 82px;
 }
 
 .grid1 {
@@ -260,7 +262,7 @@ input[type="button"]:hover {
     .find-us-box {
         outline: 3px solid #DED1B7;
         width: 90%;
-        height: 80%;
+        height: 95%;
         align-self: center;
     }
 
@@ -296,7 +298,7 @@ input[type="button"]:hover {
 
     .info-box {
         width: 100%;
-        height: 100%;
+        height: 700px;
         padding: 30px;
     }
 
@@ -354,17 +356,30 @@ input[type="button"]:hover {
     header {
         height: 550px;
     }
+
+    .find-us-box {
+        height: 350px;
+    }
     
     .visit-contact-container {
         font-size: 2.5rem;
     }
 
-    .info-box {
-        grid-template-columns: 35% 65%;
+    .map {
+        width: 300px;
+        height: 235px;
     }
 
-    h1, h2 {
-        font-size: 2.7rem;
+    .info-box {
+        grid-template-columns: 35% 65%;
+        height: 600px;
+    }
+
+    .food, .shopping {
+        height: 17vw;
+        width: 17vw;
+        max-width: 114px;
+        max-height: 114px;
     }
 
     .grid3,
