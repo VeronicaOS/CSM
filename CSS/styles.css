@@ -57,7 +57,7 @@ header {
     padding: 20px;
     left: -30px;
     top: 40px;
-    height: 300px;
+    height: 360px;
     width: 180px;
     font-size: 1.7rem;
     border-radius: 0 10px 10px 0;
@@ -73,7 +73,6 @@ header {
 }
 
 .hamburger-menu a {
-    display: block;
     padding: 20px;
     text-decoration: none;
     color: #362b2a;
@@ -123,6 +122,9 @@ header {
     font-weight: 600;
     margin: 0;
     margin-block-end: 0;
+    text-decoration: none;
+    color: #efe3cc;
+    z-index: 50;
 }
 
 .logo2 {
@@ -130,6 +132,9 @@ header {
     margin: 0;
     top: -7px;
     position: relative;
+    text-decoration: none;
+    color: #efe3cc;
+    z-index: 50;
 }
 
 /* desktop header */
@@ -223,6 +228,7 @@ hr {
         font-weight: 600;
         margin: 0;
         margin-block-end: 0;
+        z-index: 0;
     }
     
     .logo2 {
@@ -295,6 +301,7 @@ hr {
         font-weight: 600;
         margin: 0;
         margin-block-end: 0;
+        z-index: 0;
     }
     
     .logo2 {
@@ -321,6 +328,14 @@ hr {
     .header-background {
         position: fixed;
         z-index: 99;
+    }
+
+    .hamburger-menu nav {
+        filter: drop-shadow(3px 3px 2px rgb(0 0 0 / 0.4));
+    }
+
+    .hamburger-menu a {
+        display: block;
     }
 
     .footer-nav,

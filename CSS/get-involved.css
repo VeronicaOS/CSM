@@ -1,0 +1,89 @@
+
+
+header {
+    background-image: url(/Images/CSM-desktop/involved.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    z-index: 1;
+}
+
+ 
+.get-involved-container,
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EFE3CC;
+}
+
+.get-involved-container {
+    padding: 4rem 0;
+    font-size: 1.7rem;
+}
+
+h1 {
+    background: -webkit-linear-gradient(#5edc5d, #125611);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.box {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 950px) {
+    header {
+        height: 750px;
+        background-size: 100% 120%;
+    }
+    
+    .get-involved-container {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 2.8rem;
+    }
+    
+    .box {
+        outline: 3px solid #1e6111;
+        width: 50%;
+        height:50%;
+        align-self: center;
+        margin-bottom: 100px;
+    }
+
+    .box p {
+        padding: 20px;
+    }
+}
+ 
+@media only screen and (min-width: 600px) and (max-width: 949px) {
+    header {
+        height: 550px;
+        background-size: 100% 120%;
+    }
+    
+    .get-involved-container {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    .box {
+        outline: 3px solid #1e6111;
+        width: 80%;
+        height: 80%;
+        align-self: center;
+        margin-bottom: 100px;
+    }
+
+    .box p {
+        padding: 20px;
+    }
+}
