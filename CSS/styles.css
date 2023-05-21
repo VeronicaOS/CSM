@@ -25,6 +25,7 @@ header {
 }
 
 /* hamburger menu */
+
 .hamburger-menu {
     cursor: pointer;
     top: 14px;
@@ -138,6 +139,7 @@ header {
 }
 
 /* desktop header */
+
 svg {
     filter: drop-shadow(3px 3px 2px rgb(0 0 0 / 0.4));
     position: absolute;
@@ -147,6 +149,7 @@ svg {
 }
 
 /* footer */
+
 footer {
     background-color: #efe3cc;
 }

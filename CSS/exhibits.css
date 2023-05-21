@@ -45,25 +45,25 @@ p {
     color: #C4C5CA;
  }
  
- .biology-medicine {
-     background-color: #001B5D;
-     color: #C1F0FE;
-  }
+.biology-medicine {
+    background-color: #001B5D;
+    color: #C1F0FE;
+}
  
- .robotics-AI {
-     background-color: #382717;
-     color: #E5D6BF;
-  }
+.robotics-AI {
+    background-color: #382717;
+    color: #E5D6BF;
+}
  
- .cosmology {
-     background-color: #5A130D;
-     color: #CAC9D1;
-  }
+.cosmology {
+    background-color: #5A130D;
+    color: #CAC9D1;
+}
  
- .ecology {
-     background-color: #374F7F;
-     color: #E7EFF8;
-  }
+.ecology {
+    background-color: #374F7F;
+    color: #E7EFF8;
+}
 
 @media only screen and (min-width: 950px) {
     header {
