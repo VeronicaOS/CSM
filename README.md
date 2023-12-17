@@ -42,7 +42,7 @@ git clone git@github.com:VeronicaOS/CSM.git
 
 To run the app, run the following commands:
 
-Add the Live Server extensions on VS Code or simply drag the index.html file into an open browser.
+Add the Live Server extension in VS Code or simply drag the index.html file into an open browser.
 
 ## Contact
 
