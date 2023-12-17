@@ -35,7 +35,7 @@ Its core target audience is primary and middle school children (ages 7-15) and f
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:VeronicaOS/Square-Eyes.git
+git clone git@github.com:VeronicaOS/CSM.git
 ```
 
 ### Running
